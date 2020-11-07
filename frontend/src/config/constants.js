@@ -9,3 +9,8 @@ export const SNACKBAR_TYPE = {
 }
 
 export const SNACKBAR_AUTOHIDE_TIMEOUT = 3000
+
+export const KEYMAP = {
+  CHAT_JOIN: "shift+r+j",
+  CHAT_LEAVE: "shift+r+l",
+};

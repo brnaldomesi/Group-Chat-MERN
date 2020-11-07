@@ -8,6 +8,7 @@ import Hidden from '@material-ui/core/Hidden';
 import { HotKeys } from "react-hotkeys";
 import Messages from './Messages';
 import ScrollToBottom from 'react-scroll-to-bottom';
+import Shortcuts from 'components/Shortcuts';
 import Sidebar from './Sidebar';
 import Submit from './Submit';
 import io from "socket.io-client";
@@ -76,6 +77,7 @@ const Chat = ({ location }) => {
   return (
     <HotKeys handlers={handlers} className={classes.hotkeys}>
       <Container component="main" maxWidth="md">
+        <Shortcuts />
         <Box border={1} borderColor="primary.main">
           <Header 
             username={username} 

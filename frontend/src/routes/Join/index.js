@@ -10,6 +10,7 @@ import InputLabel from '@material-ui/core/InputLabel';
 import MenuItem from '@material-ui/core/MenuItem';
 import { SNACKBAR_TYPE } from 'config/constants'
 import Select from '@material-ui/core/Select';
+import Shortcuts from 'components/Shortcuts';
 import TextField from '@material-ui/core/TextField';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
@@ -49,6 +50,7 @@ export default function Join() {
   return (
     <HotKeys handlers={handlers} className={classes.hotkeys}>
       <Container component="main" maxWidth="xs">
+        <Shortcuts />
         <div className={classes.paper}>
           <Avatar className={classes.avatar}>
             <ChatIcon />
