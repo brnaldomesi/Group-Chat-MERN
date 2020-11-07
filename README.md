@@ -5,5 +5,5 @@ Setup:
 - run ```npm i && npm start``` for both frontend and backend side
 
 Run:
-localhost:3000
+- localhost:3000
 
