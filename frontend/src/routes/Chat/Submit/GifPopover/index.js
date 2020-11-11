@@ -13,7 +13,7 @@ const useStyles = makeStyles(styles);
 
 const GifPopover = ({ sendMessage }) => {
   const classes = useStyles();
-  const handleGifSelect = popupState => (item, item1) => {
+  const handleGifSelect = popupState => (item) => {
     popupState.close();
     sendMessage(item.images.original.url);
   }
