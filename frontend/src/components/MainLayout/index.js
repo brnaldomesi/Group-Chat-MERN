@@ -1,4 +1,3 @@
-import Container from '@material-ui/core/Container';
 import CssBaseline from '@material-ui/core/CssBaseline'
 import { HotKeys } from "react-hotkeys";
 import { KEYMAP } from 'config/constants'
