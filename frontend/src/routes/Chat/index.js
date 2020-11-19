@@ -58,6 +58,7 @@ const Chat = ({ location }) => {
     });
   }, []);
 
+  //function for sending message
   const sendMessage = (event, extraMessage = null) => {
     if(event !== null) {
       event.preventDefault();
